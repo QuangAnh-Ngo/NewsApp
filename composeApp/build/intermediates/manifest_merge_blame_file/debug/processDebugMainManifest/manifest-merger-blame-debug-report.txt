@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.coding.meet.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:4:5-66
+11-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:5:5-75
+12-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:6:5-78
+13-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:6:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.coding.meet.newsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.coding.meet.newsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:7:5-26:19
+22        android:name="com.coding.meet.newsapp.MyApp"
+22-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:8:9-30
+23        android:allowBackup="true"
+23-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.15.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\57001e7ffab2f10c364d5d6e715910fb\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:13:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.NewsTheme" >
+32-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:14:9-47
+33        <activity
+33-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:15:9-25:20
+34            android:name="com.coding.meet.newsapp.MainActivity"
+34-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:19:13-41
+35            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|mnc|colorMode|density|fontScale|fontWeightAdjustment|keyboard|layoutDirection|locale|mcc|navigation|smallestScreenSize|touchscreen|uiMode"
+35-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:18:13-225
+36            android:exported="true"
+36-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:16:13-36
+37            android:theme="@style/Theme.MySplash" >
+37-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:17:13-50
+38            <intent-filter>
+38-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:20:13-24:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:21:17-69
+39-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:23:17-77
+41-->D:\News-KMP-App\composeApp\src\androidMain\AndroidManifest.xml:23:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[org.jetbrains.compose.components:components-resources-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\bdd4d117069f485eded4348cd22e4aa3\transformed\library-release\AndroidManifest.xml:8:9-13:20
+46            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+46-->[org.jetbrains.compose.components:components-resources-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\bdd4d117069f485eded4348cd22e4aa3\transformed\library-release\AndroidManifest.xml:9:13-82
+47            android:authorities="com.coding.meet.newsapp.resources.AndroidContextProvider"
+47-->[org.jetbrains.compose.components:components-resources-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\bdd4d117069f485eded4348cd22e4aa3\transformed\library-release\AndroidManifest.xml:10:13-84
+48            android:enabled="true"
+48-->[org.jetbrains.compose.components:components-resources-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\bdd4d117069f485eded4348cd22e4aa3\transformed\library-release\AndroidManifest.xml:11:13-35
+49            android:exported="false" >
+49-->[org.jetbrains.compose.components:components-resources-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\bdd4d117069f485eded4348cd22e4aa3\transformed\library-release\AndroidManifest.xml:12:13-37
+50        </provider>
+51
+52        <activity
+52-->[androidx.compose.ui:ui-tooling-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\ed00193a458a5e08bfe025f9b7721e1f\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+53            android:name="androidx.compose.ui.tooling.PreviewActivity"
+53-->[androidx.compose.ui:ui-tooling-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\ed00193a458a5e08bfe025f9b7721e1f\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+54            android:exported="true" />
+54-->[androidx.compose.ui:ui-tooling-android:1.8.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\ed00193a458a5e08bfe025f9b7721e1f\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.coding.meet.newsapp.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\313eb31651c3bb78a0fe1abd4e6bbf9d\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\7d508d74c06a5aa996c30c463e569c0d\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\7d508d74c06a5aa996c30c463e569c0d\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\7d508d74c06a5aa996c30c463e569c0d\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <uses-library
+71-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:23:9-25:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:24:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:25:13-37
+74        <uses-library
+74-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:26:9-28:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:27:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.2.0] C:\Users\Admin\.gradle\caches\8.14.3\transforms\b0d87b1d869da4946b5b219c3bc7a4a9\transformed\window-1.2.0\AndroidManifest.xml:28:13-37
+77
+78        <service
+78-->[androidx.room:room-runtime-android:2.7.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\14370fabe10064164922f52afb7066a7\transformed\room-runtime-release\AndroidManifest.xml:24:9-28:63
+79            android:name="androidx.room.MultiInstanceInvalidationService"
+79-->[androidx.room:room-runtime-android:2.7.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\14370fabe10064164922f52afb7066a7\transformed\room-runtime-release\AndroidManifest.xml:25:13-74
+80            android:directBootAware="true"
+80-->[androidx.room:room-runtime-android:2.7.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\14370fabe10064164922f52afb7066a7\transformed\room-runtime-release\AndroidManifest.xml:26:13-43
+81            android:exported="false" />
+81-->[androidx.room:room-runtime-android:2.7.2] C:\Users\Admin\.gradle\caches\8.14.3\transforms\14370fabe10064164922f52afb7066a7\transformed\room-runtime-release\AndroidManifest.xml:27:13-37
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Admin\.gradle\caches\8.14.3\transforms\46a58497c450f9b8793796b5002916a8\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidMain/androidMain.iml" filepath="$PROJECT_DIR$/androidMain/androidMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonMain/commonMain.iml" filepath="$PROJECT_DIR$/commonMain/commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desktopMain/desktopMain.iml" filepath="$PROJECT_DIR$/desktopMain/desktopMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iosMain/iosMain.iml" filepath="$PROJECT_DIR$/iosMain/iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/src.iml" filepath="$PROJECT_DIR$/.idea/src.iml" />
+    </modules>
+  </component>
+</project>
